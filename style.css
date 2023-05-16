@@ -231,7 +231,19 @@ h3{
 }
 
 .sos{
-    padding: 5%;
+    padding: 5%;;
+}
+
+.SMedia{
+  
+    background-color: rgb(82, 46, 226);
+    padding: 5px;
+}
+
+.SMedia img{
+    display: inline;
+    width: 6%;
+    height: 5%;
 }
 
 /* About css */

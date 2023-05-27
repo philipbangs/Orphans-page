@@ -430,7 +430,7 @@ a{
     }
 #hero{
     height: 20rem;
-    margin-top: 10%;
+    margin-top: 7%;
 }
 
 .orange{
@@ -483,5 +483,9 @@ button{
 
 .pics7{
     height: 350px;  
+}
+
+#par{
+   margin-top: 5%;
 }
 }

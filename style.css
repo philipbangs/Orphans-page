@@ -456,6 +456,10 @@ button{
     margin-right: 20%;
 }
 
+#items{
+    padding: 90% 5% 0 5%;
+    margin: 5%;
+}
 .pics{
     height: 350px;
 }

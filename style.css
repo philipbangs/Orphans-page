@@ -48,8 +48,6 @@ body{
     margin-left: 2%;
     margin-right: 70%;
     padding-top: 7% ;
-    
-   
 }
 
 .section2{
@@ -94,7 +92,6 @@ button{
 #items{
     padding-top: 80%;
     margin: 5%;
-    
 }
 
 .section3{
@@ -112,6 +109,12 @@ button{
 }
 
 
+.forth-sect{
+    margin-top: 0;
+    height: 25px;
+    margin-bottom: 0;
+}
+
 
 .twodiv{
     background: rgba(213, 211, 211, 0.63);
@@ -120,10 +123,12 @@ button{
     font-weight: bold;
     height: 30px;
     padding: 5px;
+
+
 }
 h3{
     text-align: center;
-    padding: 10%;
+    padding: 9%;
 
 }
 
@@ -351,6 +356,35 @@ a{
     background-color: #fff;
 }
 
+/* CONTACTS US STYLING */
+
+.blueLine{
+    background-color: blue;
+    width: 22%;
+    height: 10px;
+    margin: 9% 1% 5% 40%;
+}
+
+.contacts-items{
+    text-align: center;
+    margin: 5%;
+}
+
+.getintouch img{
+    display: flex;
+    color: rgb(242, 242, 74);
+}
+
+.getintouchs{
+    display: flex;
+}
+
+.getintouches{
+    display: flex;
+}
+
+
+
 
 /* Media query styles for desktop screen */
 @media(max-width:768px) {
@@ -390,4 +424,64 @@ a{
     .nav-menu:active{
         left: 0;
     }
+
+    .navbar{
+        min-height: 50px;
+    }
+#hero{
+    height: 20rem;
+    margin-top: 10%;
+}
+
+.orange{
+    margin-left: 3%;
+    padding-top: 1% ;
+}
+
+.photos{
+    height: 50%;
+}
+
+.photos2{
+    height: 50%;
+}
+
+button{
+    width: 15%;
+    height: 60%;
+    border-radius: 15px;
+    margin-right: 20%;
+}
+
+.pics{
+    height: 350px;
+}
+
+.pics1{
+    height: 350px;  
+}
+
+.pics2{
+    height: 350px;  
+}
+
+.pics3{
+    height: 350px;  
+}
+
+.pics4{
+    height: 350px;  
+}
+
+.pics5{
+    height: 350px;  
+}
+
+.pics6{
+    height: 350px;  
+}
+
+.pics7{
+    height: 350px;  
+}
 }

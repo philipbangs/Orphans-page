@@ -454,7 +454,7 @@ input {
     min-height: 50px;
   }
   #hero {
-    height: 10rem;
+    height: 15rem;
     margin-top: 7%;
   }
 
@@ -463,8 +463,8 @@ input {
     padding-top: 1%;
   }
 
-  .photoss {
-    height: 0%;
+  .photos {
+    height: 10%;
     margin: 5%;
   }
 

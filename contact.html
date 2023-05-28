@@ -1,92 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact Us</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navigation Header -->
+    <header>
+      <nav class="navbar">
+        <a href="" class="nav-branding">ORPHANS</a>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a class="nav-link" href="/index.html">Home</a>
+          </li>
 
-     <!-- Navigation Header -->
-     <header>
-        <nav class="navbar">
-            <a href="" class="nav-branding">ORPHANS</a>
-            <ul class="nav-menu">
-                <li class="nav-item">
-                    <a class="nav-link" href="/index.html">Home</a>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
-                <li class="nav-item">
-                    <a class="nav-link" href="/contact_page/contact.html">Contact</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/categories/categories.html">Categogies</a>
-                </li>
-            </ul>   
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
 
-            <!-- Mobile Nav Menu  -->
-            <ul class="_nav_menu">
-                <span class="close_menu">&times;</span>
-                <li class="_nav_"><a href="/index.html">Home</a></li>
-                <li class="_nav_"><a href="#">About</a></li>
-                <li class="_nav_"><a href="/contact_page/contact.html">Contact</a></li>
-                <li class="_nav_"><a href="/categories/categories.html">Categories</a></li>
-            </ul>
-            <!-- mobile nav end -->
+          <li class="nav-item">
+            <a class="nav-link" href="/contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/categories/categories.html"
+              >Categogies</a
+            >
+          </li>
+        </ul>
 
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-        </nav>
+        <!-- Mobile Nav Menu  -->
+        <ul class="_nav_menu">
+          <span class="close_menu">&times;</span>
+          <li class="_nav_"><a href="/index.html">Home</a></li>
+          <li class="_nav_"><a href="#">About</a></li>
+          <li class="_nav_">
+            <a href="/contact.html">Contact</a>
+          </li>
+          <li class="_nav_">
+            <a href="/categories/categories.html">Categories</a>
+          </li>
+        </ul>
+        <!-- mobile nav end -->
+
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
     </header>
 
+    <!-- Hero Section -->
 
- <!-- Hero Section -->
-
- <section id="hero">
-    <div class="hero-section">
+    <section id="hero">
+      <div class="hero-section">
         <marquee behavior="Reserved" direction="top">
-        <h1 id="hero-h1">CONTACT US</h1>
-        <p>We help Orphans and Disable to have a happy & healthy life</p>
-    </marquee>
-    </div>
-</section>
+          <h1 id="hero-h1">CONTACT US</h1>
+          <p>We help Orphans and Disable to have a happy & healthy life</p>
+        </marquee>
+      </div>
+    </section>
 
-<section id="contact-section">
-    <div class="contacts-items">
+        <section class="contac">
+               
+      <div class="contacts-items">
         <div class="blueLine"></div>
         <h2 class="contH2">GET INVOLVED</h2>
-        
-        <div class="getintouch">
-            <img src="./Disable-kids-photo/locations.png" alt="location">
-            <p>28 Jackson Blvd ste</p>
+
+        <div class="inner">
+            <div><h4>logo</h4></div>
+            <div class="inner-chd">
+                <p> 28 Jakson Blvd amianyii</p>
+                <p>1020 Chicago IL 606040</p>
+            </div>
         </div>
-
-        <div class="getintouchs">
-            <img src="" alt="location">
-            <p>28 Jackson Blvd ste</p>
+        <div class="inner">
+            <div><h4>tele</h4></div>
+            <div class="inner-chd">
+                <p>(123)456 7890</p>
+                <p>(123)456 7890</p>
+            </div>
         </div>
-
-        <div class="getintouches">
-            <img src="" alt="location">
-            <p>28 Jackson Blvd ste</p>
+        <div class="inner">
+            <div><h4>logo</h4></div>
+            <div class="inner-chd">
+                <p>demolink@demo.com</p>
+                <p>demolink@demo.com</p>
+            </div>
         </div>
+        </section>
 
+        <section class="intouch">
+            <h2>GET IN TOUCH</h2>
+            <br>
+            <P>Whatever type of questions you"ll have. Feel free to get in touch with us</P> <br>
 
-    </div>
-   
-</section>
-
-
-
-
+          <form action="active">
+            <input type="text" placeholder="Your name*"> <br>
+            <input type="number" placeholder="Phone*"> <br> 
+            <input type="email" placeholder="Email*">
+            <input class="msg" type="text" placeholder="Message*">
+          </form>
+           <br> 
+        </section>
+        <!-- <button>REGISTER</button> -->
+        </section>
     <script src="script.js"></script>
-    
-</body>
+  </body>
 </html>
